@@ -1,0 +1,11 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+@include font-face($font-opensans, $base-url + 'fonts/', 'opensans-regular', 'opensans-regular');
+
+@include font-face($i-still-know, $base-url + 'fonts/', 'i-still-know', 'i-still-know');
+
+@include font-face($shadows-into-light, $base-url + 'fonts/', 'shadows-into-light', 'shadows-into-light');
